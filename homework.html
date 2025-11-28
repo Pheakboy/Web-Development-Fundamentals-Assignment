@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wing Bank - Digital Banking for Every Cambodian</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#2E2F30] text-white">
+    <header class="bg-[#2E2F30] py-4 px-4 md:px-8 sticky top-0 z-50 w-full">
+      <nav class="max-w-7xl mx-auto w-full flex items-center justify-between">
+        <div class="hidden md:flex items-center gap-8">
+          <div class="flex items-center">
+            <a href="#" class="text-xl md:text-2xl font-bold">
+              <img
+                src="./assets/images/wb-logo.svg"
+                alt="Wing Bank Logo"
+                class="h-8 md:h-10 inline cursor-pointer"
+              />
+            </a>
+          </div>
+          <a href="#" class="text-gray-300 hover:text-white">Personal</a>
+          <a href="#" class="text-gray-300 hover:text-white">Corporate</a>
+          <a href="#" class="text-gray-300 hover:text-white">Company</a>
+        </div>
+        <div class="hidden md:flex items-center gap-4">
+          <button
+            class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg cursor-pointer"
+          >
+            Internet Banking
+          </button>
+        </div>
+        <!-- Mobile Menu Button -->
+        <button id="menuBtn" class="md:hidden text-white text-3xl">☰</button>
+      </nav>
+      <!-- Mobile Menu -->
+      <div id="mobileMenu" class="hidden md:hidden mt-4 pb-4">
+        <a href="#" class="block text-gray-300 hover:text-white py-2"
+          >Personal</a
+        >
+        <a href="#" class="block text-gray-300 hover:text-white py-2"
+          >Corporate</a
+        >
+        <a href="#" class="block text-gray-300 hover:text-white py-2"
+          >Company</a
+        >
+        <button
+          class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg mt-4 w-full"
+        >
+          Internet Banking
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-8 md:py-16 px-4 md:px-8">
+      <div class="max-w-7xl mx-auto text-center">
+        <h2 class="text-2xl md:text-5xl font-bold mb-6 leading-tight">
+          Digital Banking for Every<br />
+          Cambodian Smart services. Real support.<br />
+          All in one app made for you.
+        </h2>
+
+        <!-- Feature Cards -->
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mt-8 md:mt-16"
+        >
+          <div
+            class="rounded-xl p-4 md:p-6 text-center hover:bg-gray-700 transition"
+          >
+            <img
+              src="./assets/images/bn-icon4.png"
+              alt="wing bank app"
+              class="mb-2 md:mb-4 cursor-pointer"
+            />
+            <h3
+              class="text-sm md:text-lg font-semibold bg-gray-700 rounded-2xl"
+            >
+              Wing Bank App
+            </h3>
+          </div>
+          <div
+            class="rounded-xl p-4 md:p-6 text-center hover:bg-gray-700 transition"
+          >
+            <img
+              src="./assets/images/bn-icon2.png"
+              alt="what's new"
+              class="mb-2 md:mb-4 cursor-pointer"
+            />
+            <h3
+              class="text-sm md:text-lg font-semibold bg-gray-700 rounded-2xl"
+            >
+              What's New
+            </h3>
+          </div>
+          <div
+            class="rounded-xl p-4 md:p-6 text-center hover:bg-gray-700 transition"
+          >
+            <img
+              src="./assets/images/coin1.png"
+              alt="self service"
+              class="mb-2 md:mb-4 cursor-pointer"
+            />
+            <h3
+              class="text-sm md:text-lg font-semibold bg-gray-700 rounded-2xl"
+            >
+              Self Service
+            </h3>
+          </div>
+          <div
+            class="rounded-xl p-4 md:p-6 text-center hover:bg-gray-700 transition"
+          >
+            <img
+              src="./assets/images/bn-icon4.png"
+              alt="24/7 support"
+              class="mb-2 md:mb-4 cursor-pointer"
+            />
+            <h3
+              class="text-sm md:text-lg font-semibold bg-gray-700 rounded-2xl"
+            >
+              24/7 Support
+            </h3>
+          </div>
+        </div>
+
+        <p
+          class="mt-8 md:mt-12 text-gray-400 text-xs md:text-sm max-w-5xl mx-auto px-4"
+        >
+          Wing Bank – The Bank for Every Cambodian Since 2008, Wing Bank has
+          transformed how Cambodians access and manage their money. As one of
+          the fastest-growing and most trusted banks in Cambodia, we’re proud to
+          serve millions with smart, secure, and convenient financial solutions.
+        </p>
+      </div>
+    </section>
+
+    <!-- Financial Solutions Section -->
+    <section class="py-8 md:py-16 px-4 md:px-8 bg-gray-800">
+      <div class="max-w-7xl mx-auto">
+        <h2 class="text-2xl md:text-4xl font-bold text-center mb-4">
+          Discover All Our Financial Solutions for Your<br
+            class="hidden md:block"
+          />
+          Brighter Financial Future.
+        </h2>
+        <p
+          class="text-center text-gray-400 text-sm md:text-base mb-8 md:mb-12 max-w-4xl mx-auto px-4"
+        >
+          Explore our full suite of products, designed to help you save, invest,
+          and manage your money with ease. From high-yield savings to
+          commission-free trading, Wing Bank offers every tool you need to grow
+          and diversify your finances—all in one convenient place.
+        </p>
+
+        <div
+          class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-6"
+        >
+          <img
+            class="hover:scale-105 transition"
+            src="./assets/images/loan_1760409657.png"
+            alt=""
+          />
+
+          <img
+            class="hover:scale-105 transition"
+            src="./assets/images/td_1754989980.png"
+            alt=""
+          />
+
+          <img
+            class="hover:scale-105 transition"
+            src="./assets/images/Redeem_1754990053.png"
+            alt=""
+          />
+
+          <img
+            class="hover:scale-105 transition"
+            src="./assets/images/exchange_1760409803.png"
+            alt=""
+          />
+
+          <img
+            class="hover:scale-105 transition"
+            src="./assets/images/gservice_1754990162.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section class="py-12 md:py-20 px-4 md:px-8 bg-gray-900">
+      <div class="max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-start">
+          <!-- Left Side: What Can We Help With -->
+          <div class="lg:col-span-1">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-white">
+              Solutions for Your Every Financial Need.
+            </h2>
+            <p class="text-gray-400 text-sm mb-8">What Can We Help With?</p>
+
+            <div class="space-y-4">
+              <div>
+                <h3 class="text-lg font-semibold text-white mb-2">
+                  I Want To Explore
+                </h3>
+              </div>
+
+              <div>
+                <a
+                  href="#"
+                  class="text-blue-400 hover:text-blue-300 text-lg font-semibold block mb-2"
+                  >Promotions</a
+                >
+              </div>
+
+              <div>
+                <a href="#" class="text-gray-400 hover:text-white block mb-2"
+                  >News</a
+                >
+              </div>
+
+              <div>
+                <a href="#" class="text-gray-400 hover:text-white block mb-2"
+                  >Wing for Good</a
+                >
+              </div>
+            </div>
+
+            <button
+              class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition"
+            >
+              See More
+            </button>
+          </div>
+
+          <!-- Right Side: Promotion Cards -->
+          <div class="lg:col-span-2">
+            <div class="grid grid-cols-2 sm:grid-cols-2 gap-6">
+              <!-- Card 1 -->
+              <div
+                class="bg-gray-800 rounded-2xl overflow-hidden hover:transform hover:scale-105 transition"
+              >
+                <div class="relative">
+                  <img src="./assets/images/bn-icon2.png" alt="" />
+                  <div
+                    class="absolute top-4 left-4 bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1"
+                  >
+                    ⚡ QUICK READ
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-white font-semibold text-lg mb-4">
+                    Get 30% Cashback on Your Favorite Subscriptions & Shopping
+                    with Wing Virtual Card
+                  </h3>
+                  <div class="flex justify-between items-center">
+                    <span class="text-gray-400 text-sm">Oct 09, 2025</span>
+                    <button
+                      class="bg-white hover:bg-gray-100 text-gray-900 w-10 h-10 rounded-full flex items-center justify-center transition font-bold"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div
+                class="bg-gray-800 rounded-2xl overflow-hidden hover:transform hover:scale-105 transition"
+              >
+                <div class="relative">
+                  <img src="./assets/images/bn-icon3.png" alt="" />
+                  <div
+                    class="absolute top-4 left-4 bg-yellow-500 text-black text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1"
+                  >
+                    ⚡ QUICK READ
+                  </div>
+                </div>
+                <div class="p-6">
+                  <h3 class="text-white font-semibold text-lg mb-4">
+                    Relax, Refresh & Save with Wing Visa Subscriptions &
+                    Shopping with Wing Virtual Card
+                  </h3>
+                  <div class="flex justify-between items-center">
+                    <span class="text-gray-400 text-sm">Sep 18, 2025</span>
+                    <button
+                      class="bg-white hover:bg-gray-100 text-gray-900 w-10 h-10 rounded-full flex items-center justify-center transition font-bold"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section
+      id="testimonials"
+      class="py-16 sm:py-20 bg-gradient-to-b from-gray-900 via-gray-800 to-black text-white border-t border-b border-gray-700"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6">
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-center mb-2">
+          What Our Customers Say
+        </h2>
+        <p
+          class="text-center text-gray-400 mb-10 sm:mb-12 text-base sm:text-lg"
+        >
+          Trusted by thousands of users across Cambodia.
+        </p>
+
+        <div class="relative">
+          <div id="testimonialsTrack" class="overflow-hidden">
+            <div
+              class="flex transition-transform duration-700 ease-in-out"
+              style="width: 400%"
+            >
+              <!-- Slide 1 -->
+              <div class="w-full flex-shrink-0 px-3 sm:px-6">
+                <div
+                  class="relative bg-gray-800/60 rounded-2xl sm:rounded-3xl p-6 sm:p-10 shadow-xl border border-gray-700 hover:border-green-400/40 transition-all duration-500 backdrop-blur-xl group"
+                >
+                  <div
+                    class="absolute inset-0 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-green-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+                  ></div>
+
+                  <p
+                    class="text-gray-200 mb-4 sm:mb-6 text-base sm:text-xl leading-relaxed"
+                  >
+                    “Wing Bank made banking easy for my family.
+                    <span class="hidden sm:inline"
+                      >mobile-first, fast, and secure.</span
+                    >
+                  </p>
+
+                  <div
+                    class="flex mb-4 sm:mb-6 gap-1 text-yellow-400 text-lg sm:text-xl"
+                  >
+                    <span>★</span><span>★</span><span>★</span><span>★</span
+                    ><span>★</span>
+                  </div>
+
+                  <div class="flex items-center gap-3 sm:gap-4">
+                    <img
+                      src="https://i.pravatar.cc/100?img=12"
+                      class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-green-300 shadow-md"
+                    />
+                    <p class="font-bold text-green-300 text-sm sm:text-lg">
+                      — Sok, Phnom Penh
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 2 -->
+              <div class="w-full flex-shrink-0 px-3 sm:px-6">
+                <div
+                  class="relative bg-gray-800/60 rounded-2xl sm:rounded-3xl p-6 sm:p-10 shadow-xl border border-gray-700 hover:border-green-400/40 transition-all duration-500 backdrop-blur-xl group"
+                >
+                  <div
+                    class="absolute inset-0 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-green-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+                  ></div>
+
+                  <p
+                    class="text-gray-200 mb-4 sm:mb-6 text-base sm:text-xl leading-relaxed"
+                  >
+                    “Customer support was quick and helpful.
+                    <span class="hidden sm:inline"
+                      >The app saves me time every single week.”</span
+                    >
+                  </p>
+
+                  <div
+                    class="flex mb-4 sm:mb-6 gap-1 text-yellow-400 text-lg sm:text-xl"
+                  >
+                    <span>★</span><span>★</span><span>★</span><span>★</span
+                    ><span>★</span>
+                  </div>
+
+                  <div class="flex items-center gap-3 sm:gap-4">
+                    <img
+                      src="https://i.pravatar.cc/100?img=32"
+                      class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-green-300 shadow-md"
+                    />
+                    <p class="font-bold text-green-300 text-sm sm:text-lg">
+                      — Dara, Siem Reap
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 3 -->
+              <div class="w-full flex-shrink-0 px-3 sm:px-6">
+                <div
+                  class="relative bg-gray-800/60 rounded-2xl sm:rounded-3xl p-6 sm:p-10 shadow-xl border border-gray-700 hover:border-green-400/40 transition-all duration-500 backdrop-blur-xl group"
+                >
+                  <div
+                    class="absolute inset-0 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-green-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+                  ></div>
+
+                  <p
+                    class="text-gray-200 mb-4 sm:mb-6 text-base sm:text-xl leading-relaxed"
+                  >
+                    “Perfect for small businesses.
+                    <span class="hidden sm:inline"
+                      >fast transfers, clean history, and great tools.”</span
+                    >
+                  </p>
+
+                  <div
+                    class="flex mb-4 sm:mb-6 gap-1 text-yellow-400 text-lg sm:text-xl"
+                  >
+                    <span>★</span><span>★</span><span>★</span><span>★</span
+                    ><span>★</span>
+                  </div>
+
+                  <div class="flex items-center gap-3 sm:gap-4">
+                    <img
+                      src="https://i.pravatar.cc/100?img=45"
+                      class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-green-300 shadow-md"
+                    />
+                    <p class="font-bold text-green-300 text-sm sm:text-lg">
+                      — Vanna, Kampot
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Slide 4 -->
+              <div class="w-full flex-shrink-0 px-3 sm:px-6">
+                <div
+                  class="relative bg-gray-800/60 rounded-2xl sm:rounded-3xl p-6 sm:p-10 shadow-xl border border-gray-700 hover:border-green-400/40 transition-all duration-500 backdrop-blur-xl group"
+                >
+                  <div
+                    class="absolute inset-0 rounded-2xl sm:rounded-3xl bg-gradient-to-br from-green-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700"
+                  ></div>
+
+                  <p
+                    class="text-gray-200 mb-4 sm:mb-6 text-base sm:text-xl leading-relaxed"
+                  >
+                    “Best digital banking experience I've had.
+                    <span class="hidden sm:inline"
+                      >Smooth, modern, reliable.”</span
+                    >
+                  </p>
+
+                  <div
+                    class="flex mb-4 sm:mb-6 gap-1 text-yellow-400 text-lg sm:text-xl"
+                  >
+                    <span>★</span><span>★</span><span>★</span><span>★</span
+                    ><span>★</span>
+                  </div>
+
+                  <div class="flex items-center gap-3 sm:gap-4">
+                    <img
+                      src="https://i.pravatar.cc/100?img=67"
+                      class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-green-300 shadow-md"
+                    />
+                    <p class="font-bold text-green-300 text-sm sm:text-lg">
+                      — Sreypov, Battambang
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Navigation Buttons -->
+          <button
+            id="prevTestimonial"
+            class="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 bg-gray-800/70 hover:bg-gray-700 text-white rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center shadow-lg backdrop-blur-xl text-lg"
+          >
+            👉
+          </button>
+          <button
+            id="nextTestimonial"
+            class="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 bg-gray-800/70 hover:bg-gray-700 text-white rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center shadow-lg backdrop-blur-xl text-lg"
+          >
+            👈
+          </button>
+        </div>
+
+        <!-- DOTS -->
+        <div class="flex justify-center mt-6 sm:mt-8 space-x-2 sm:space-x-3">
+          <span
+            class="dot w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-gray-500 cursor-pointer"
+          ></span>
+          <span
+            class="dot w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-gray-500 cursor-pointer"
+          ></span>
+          <span
+            class="dot w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-gray-500 cursor-pointer"
+          ></span>
+          <span
+            class="dot w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-gray-500 cursor-pointer"
+          ></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+      <div
+        class="bg-repeat-x bg-contain w-full h-[70px]"
+        style="background-image: url(./assets/images/bg-img.jpg)"
+      ></div>
+
+      <div class="max-w-7xl mx-auto py-12 px-4 md:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-12">
+          <div>
+            <h4 class="text-white font-semibold mb-4">Saving</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Savings Account</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Term Deposit Account</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Save for a Goal</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Current Account</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Cheque Book</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Special Bank Account Number</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">Loan</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Digital Loan</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Business Loan</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Digital Loan</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">Card</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Bank Mastercard</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Bank Visa Cards</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Bank UnionPay</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Virtual Cards</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">Transfer Now</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >IMT Partner</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Local Transfers</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">Support</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Contact Center</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="hidden lg:block"></div>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-12">
+          <div>
+            <h4 class="text-white font-semibold mb-4">Wing Bank App</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Bank App</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Bill Payment</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Code to Wing</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >QR Scan</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Chat</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">Company</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Promotions</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >News</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Tower</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Credit Rating</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Annual Report</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">What You Need</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Prudential Cambodia</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wingpoints</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Money Matters</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wings of Change</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Feedback Form</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">Self Service</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Bank ATM & CRM</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Wing Bank Branches</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Bakong ATM</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Celebrating 17 Years of Wing</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Bakong Tourist App</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-white font-semibold mb-4">Security</h4>
+            <ul class="space-y-2 text-sm">
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Safe Deposit Box</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >ESCROW Service</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-gray-400 hover:text-white transition"
+                  >Card Security Awareness</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 gap-8 border-t border-gray-700 pt-8"
+        >
+          <div>
+            <h3 class="text-2xl font-bold mb-4">
+              <img
+                src="./assets/images/wb-logo.svg"
+                alt="Wing Bank Logo"
+                class="h-8 md:h-10 inline"
+              />
+            </h3>
+            <p class="text-gray-400 text-sm mb-2">
+              #721 Preah Monivong Blvd, Sangkat Boeng Keng Kang III, Khan Boeng
+              Keng Kang,
+            </p>
+            <p class="text-gray-400 text-sm mb-4">Phnom Penh, Cambodia.</p>
+            <p class="text-sm">
+              <span class="text-gray-400">Swift code </span>
+              <span class="text-blue-400 font-semibold">WICBKHPP</span>
+            </p>
+          </div>
+
+          <div>
+            <div class="flex flex-col md:flex-row items-start gap-6 mb-6">
+              <div class="bg-white p-3 rounded-lg">
+                <img
+                  src="./assets/images/qrcode.jpg"
+                  alt="QR Code to download app"
+                />
+              </div>
+              <div>
+                <h4 class="text-white font-semibold text-lg mb-2">
+                  Bank from Anywhere, 24/7.
+                </h4>
+                <p class="text-gray-400 text-sm mb-4">
+                  Download the Wing Bank app today for a truly 100% mobile
+                  banking experience. It's available on both iOS and Android!
+                </p>
+                <div class="flex flex-wrap gap-3">
+                  <img src="./assets/images/app-store.svg" alt="App Store" />
+                  <img
+                    src="./assets/images/google-play.svg"
+                    alt="Google Play"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media -->
+            <div>
+              <h4 class="text-white font-semibold mb-3">Follow Us</h4>
+              <div class="flex gap-3">
+                <a
+                  href="#"
+                  class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition"
+                >
+                  <span class="text-white">f</span>
+                </a>
+
+                <a
+                  href="#"
+                  class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-red-600 transition"
+                >
+                  <span class="text-white">▶</span>
+                </a>
+
+                <a
+                  href="#"
+                  class="w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-700 transition"
+                >
+                  <span class="text-white">in</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Mobile menu toggle
+      const menuBtn = document.getElementById("menuBtn");
+      const mobileMenu = document.getElementById("mobileMenu");
+
+      menuBtn.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      //
+
+      const track = document.querySelector("#testimonialsTrack > div");
+      const dots = document.querySelectorAll(".dot");
+      let index = 0;
+
+      function updateCarousel() {
+        track.style.transform = `translateX(-${index * 100}%)`;
+        dots.forEach((d, i) => d.classList.toggle("bg-green-400", i === index));
+      }
+
+      document.getElementById("nextTestimonial").onclick = () => {
+        index = (index + 1) % 4;
+        updateCarousel();
+      };
+
+      document.getElementById("prevTestimonial").onclick = () => {
+        index = (index - 1 + 4) % 4;
+        updateCarousel();
+      };
+
+      dots.forEach((dot, i) =>
+        dot.addEventListener("click", () => {
+          index = i;
+          updateCarousel();
+        })
+      );
+
+      // Auto-play every 4 seconds
+      setInterval(() => {
+        index = (index + 1) % 4;
+        updateCarousel();
+      }, 4000);
+    </script>
+  </body>
+</html>
