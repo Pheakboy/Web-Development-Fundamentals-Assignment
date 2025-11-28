@@ -4,7 +4,6 @@
 
 [View Live on GitHub Pages](https://pheakboy.github.io/Web-Development-Fundamentals-Assignment/)
 
-
 ## ✨ Implemented Features
 
 ### Navigation & Header
@@ -101,7 +100,6 @@
 - Primary Font - Tailwind's default system font stack
 - Icons & Emojis - Unicode standard
 
-
 ## 🚀 How to Run the Project Locally
 
 ### Installation Steps
@@ -127,19 +125,19 @@
      - Install "Live Server" extension
      - Right-click `homework.html` → "Open with Live Server"
 
-
 ### File Structure
 
 Week1/
-├── homework.html         # Main HTML file          
-├── index.html            # Alternative entry point
-├── README.md             # Project documentation
-└── assets/               # Image files
-    └── images/           
-        ├── wb-logo.svg
-        ├── bn-icon*.png
-        ├── loan_*.png
-        └── ...other images
+├── homework.html # Main HTML file  
+├── index.html # Alternative entry point
+├── README.md # Project documentation
+└── assets/ # Image files
+└── images/  
+ ├── wb-logo.svg
+├── bn-icon*.png
+├── loan\_*.png
+└── ...other images
+
 ```
 
 ### Running without Live Server
@@ -156,5 +154,6 @@ This project is for educational purposes as part of the Full-Stack Web Developme
 
 ---
 
-**Last Updated:** November 28, 2025  
+**Last Updated:** November 28, 2025
 **Status:** ✅ Complete and Deployed
+```
